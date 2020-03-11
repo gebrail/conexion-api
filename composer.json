@@ -1,0 +1,36 @@
+{
+    "name": "gebrail/conexion-api",
+    "description": "La funcion del paquete es conectarse a la api del sistema yebrail, de una forma limpia y rapida.",
+    "authors": [
+        {
+            "name": "WILSON GEBRAIL BARRERA HERNANDEZ",
+            "email": "wilsongebrai@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+
+    "autoload":{
+
+        "psr-4": {
+            "Gebrail\\ConexionApi\\" : "src/"
+        }
+
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0"
+    },
+
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Gebrail\\ConexionApi\\SomeApiServiceProvider"
+            ],
+            "aliases":{
+                "SomeApi": "Gebrail\\ConexionApi\\Facades\\SomeApi"
+            }
+        }
+    }
+
+}
