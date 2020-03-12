@@ -1,6 +1,7 @@
 {
     "name": "gebrail/conexion-api",
     "description": "La funcion del paquete es conectarse a la api del sistema yebrail, de una forma limpia y rapida.",
+    "license": "MIT",
     "authors": [
         {
             "name": "WILSON GEBRAIL BARRERA HERNANDEZ",
